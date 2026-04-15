@@ -1,0 +1,298 @@
+[
+  {
+    "date": "10.04.2026",
+    "time": "02:13:54",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 1,
+      "name": "Иван Петров",
+      "contact": "ivan@example.com"
+    }
+  },
+  {
+    "date": "10.04.2026",
+    "time": "02:41:23",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 2,
+      "name": "Мария Смирнова",
+      "contact": "maria@mail.ru"
+    }
+  },
+  {
+    "date": "10.04.2026",
+    "time": "03:16:27",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 4,
+      "name": "Елена Козлова",
+      "contact": "elena@gmail.com"
+    }
+  },
+  {
+    "date": "10.04.2026",
+    "time": "03:33:34",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 2,
+      "name": "Мария Смирнова",
+      "contact": "maria@mail.ru"
+    }
+  },
+  {
+    "date": "15.04.2026",
+    "time": "01:26:35",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 1,
+      "name": "Иван Петров",
+      "contact": "ivan@example.com"
+    }
+  },
+  {
+    "date": "15.04.2026",
+    "time": "07:02:33",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 1,
+      "name": "Иван Петров",
+      "contact": "ivan@example.com"
+    }
+  },
+  {
+    "date": "15.04.2026",
+    "time": "07:02:42",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 3,
+      "name": "Алексей Иванов",
+      "contact": "alex@yandex.ru"
+    }
+  },
+  {
+    "date": "15.04.2026",
+    "time": "07:04:15",
+    "participantsCount": 5,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Иван Петров",
+        "contact": "ivan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Мария Смирнова",
+        "contact": "maria@mail.ru"
+      },
+      {
+        "id": 3,
+        "name": "Алексей Иванов",
+        "contact": "alex@yandex.ru"
+      },
+      {
+        "id": 4,
+        "name": "Елена Козлова",
+        "contact": "elena@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Дмитрий Соколов",
+        "contact": "dmitry@outlook.com"
+      }
+    ],
+    "winner": {
+      "id": 2,
+      "name": "Мария Смирнова",
+      "contact": "maria@mail.ru"
+    }
+  }
+]
