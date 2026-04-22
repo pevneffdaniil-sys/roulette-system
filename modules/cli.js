@@ -4,9 +4,6 @@ const { loadParticipants } = require('./loader');
 const { spinWheel } = require('./roulette');
 const { saveToHistory, loadHistory } = require('./logger');
 
-/**
- * Главное меню
- */
 async function mainMenu() {
     while (true) {
         const { action } = await inquirer.prompt([
@@ -36,9 +33,6 @@ async function mainMenu() {
     }
 }
 
-/**
- * Запуск розыгрыша: запрос файла, загрузка, анимация, сохранение истории
- */
 async function runRoulette() {
     try {
         const { filePath } = await inquirer.prompt([
@@ -57,7 +51,6 @@ async function runRoulette() {
 
         const winner = await spinWheel(participants);
 
-        // Сохраняем в историю
         saveToHistory(participants, winner);
         console.log(chalk.green('Результат сохранён в историю.'));
 
@@ -66,9 +59,6 @@ async function runRoulette() {
     }
 }
 
-/**
- * Просмотр истории розыгрышей
- */
 async function showHistory() {
     try {
         const history = loadHistory();

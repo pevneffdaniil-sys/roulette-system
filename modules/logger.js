@@ -3,11 +3,6 @@ const path = require('path');
 
 const HISTORY_FILE = path.join(__dirname, '..', 'data', 'history.json');
 
-/**
- * Сохраняет запись о розыгрыше в историю
- * @param {Array} participants - список участников на момент розыгрыша
- * @param {Object} winner - объект победителя
- */
 function saveToHistory(participants, winner) {
     const record = {
         date: new Date().toLocaleDateString('ru-RU'),
@@ -32,10 +27,6 @@ function saveToHistory(participants, winner) {
     fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2), 'utf-8');
 }
 
-/**
- * Возвращает всю историю розыгрышей
- * @returns {Array}
- */
 function loadHistory() {
     if (!fs.existsSync(HISTORY_FILE)) {
         return [];

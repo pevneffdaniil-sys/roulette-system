@@ -2,11 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const { parse } = require('csv-parse/sync');
 
-/**
- * Загружает список участников из файла (CSV или JSON)
- * @param {string} filePath - путь к файлу
- * @returns {Array<{id: number, name: string, contact: string}>}
- */
 function loadParticipants(filePath) {
     const absolutePath = path.resolve(filePath);
     if (!fs.existsSync(absolutePath)) {
@@ -43,13 +38,11 @@ function loadParticipants(filePath) {
         throw new Error('Неподдерживаемый формат файла. Используйте .csv или .json');
     }
 
-    // Валидация и нормализация данных
     if (participants.length === 0) {
         throw new Error('Список участников пуст');
     }
 
     participants = participants.map((p, index) => {
-        // Приводим к единой структуре: id, name, contact
         return {
             id: p.id !== undefined ? Number(p.id) : index + 1,
             name: p.name?.toString().trim() || `Участник ${index + 1}`,
@@ -57,7 +50,6 @@ function loadParticipants(filePath) {
         };
     });
 
-    // Проверка обязательных полей
     participants.forEach(p => {
         if (!p.name) throw new Error('У участника отсутствует имя');
     });
